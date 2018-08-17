@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "ml-frameworks-test"
+        },
+        "hostingPlanName": {
+            "value": "Occo"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "location": {
+            "value": "West Europe"
+        },
+        "sku": {
+            "value": "Free"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "serverFarmResourceGroup": {
+            "value": "test"
+        },
+        "skuCode": {
+            "value": "F1"
+        },
+        "subscriptionId": {
+            "value": "a1c73b37-c510-4109-b3b2-41df0cdff7e4"
+        }
+    }
+}
