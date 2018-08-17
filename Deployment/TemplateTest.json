@@ -33,7 +33,7 @@
             "name": "[parameters('appname')]",
             "type": "Microsoft.Web/sites",
             "properties": {
-                "appname": "[parameters('appname')]",
+                "name": "[parameters('appname')]",
                 "siteConfig": {
                     "localMySqlEnabled": true
                 },
