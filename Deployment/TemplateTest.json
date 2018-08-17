@@ -1,6 +1,6 @@
 {
     "parameters": {
-        "name": {
+        "appname": {
             "type": "string"
         },
         "hostingPlanName": {
