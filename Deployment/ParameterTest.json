@@ -23,6 +23,9 @@
         "skuCode": {
             "value": "F1"
         },
+        "serverFarmResourceGroup": {
+            "value": "test"
+        },
         "subscriptionId": {
             "value": "a1c73b37-c510-4109-b3b2-41df0cdff7e4"
         }
