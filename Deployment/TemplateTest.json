@@ -30,10 +30,10 @@
     },
     "resources": [
         {
-            "appname": "[parameters('appname')]",
+            "name": "[parameters('appname')]",
             "type": "Microsoft.Web/sites",
             "properties": {
-                "name": "[parameters('appname')]",
+                "appname": "[parameters('appname')]",
                 "siteConfig": {
                     "localMySqlEnabled": true
                 },
