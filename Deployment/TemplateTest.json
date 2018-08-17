@@ -30,7 +30,7 @@
     },
     "resources": [
         {
-            "name": "[parameters('appname')]",
+            "appname": "[parameters('appname')]",
             "type": "Microsoft.Web/sites",
             "properties": {
                 "name": "[parameters('appname')]",
